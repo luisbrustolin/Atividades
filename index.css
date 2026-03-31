@@ -9,7 +9,7 @@ img{
 
 @media (min-width: 768px) {
     .menu {
-        display: grid;
+        
         background-color: antiquewhite;
         justify-content: space-between;
     }
@@ -21,14 +21,12 @@ img{
         display: grid;
         grid-template-columns:1fr 1fr;
     }
-    .content2{
-        display: grid;
-        grid-template-columns:1fr 1fr;
-    }
+    
 }
 
 @media(min-width: 1024px) {
     .menu {
+        display: flex;
         background-color: aqua;
         justify-content: space-around;
     }
@@ -41,10 +39,7 @@ img{
          
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .content2{
-         
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+   
     /* .student{
         object-fit: cover;
     } */
